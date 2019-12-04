@@ -9,9 +9,9 @@ converts a bunch of syntax from ractive Ractive 1.2.0 to Svelte 3.16.0
 - other component methods moved to global scope
 - `{{{...}}}` to {@html ...}
 -  `@shared` to store
-   - `@shared.propName` --> $propName
-   - create a file './stores/propName' that exports a writable store
-   - import the store
+   - `@shared.propName` --> `$propName`
+   - then create a file './stores/propName' that exports a writable store
+   - and import the store
 - component <link> to import statements (we used `ractive-component-loader`)
 - most on- event handler forms to valid svelte handlers
    - "on-click="@.myMethod()" --> "on:click={myMethod}"

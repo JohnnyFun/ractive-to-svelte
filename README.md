@@ -1,5 +1,5 @@
 # ractive-to-svelte
-converts a bunch of syntax from Ractive 1.2.0 to Svelte 3.16.0
+Converts a bunch of syntax from Ractive 1.2.0 to Svelte 3.16.0
 
 - `computed` properties to reactive statements
 - `data()` to `export let` statements

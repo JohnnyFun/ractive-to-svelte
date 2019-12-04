@@ -6,7 +6,7 @@ converts a bunch of syntax from ractive Ractive 1.2.0 to Svelte 3.16.0
 - onrender into OnMount, onteardown (and ondestruct...) into OnDestroy
 - oninit contents to global scope
 
-- other methods moved to global scope
+- other component methods moved to global scope
 - `{{{...}}}` to {@html ...}
 -  `@shared` to store
   - `@shared.propName` --> $propName

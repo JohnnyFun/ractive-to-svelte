@@ -9,6 +9,7 @@ converts a bunch of syntax from ractive Ractive 1.2.0 to Svelte 3.16.0
 - other component methods moved to global scope
 - `{{{...}}}` to {@html ...}
 -  `@shared` to store
+  
   - `@shared.propName` --> $propName
   - create a file './stores/propName' that exports a writable store
   - import the store
